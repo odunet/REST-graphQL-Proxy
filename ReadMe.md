@@ -5,6 +5,12 @@ A simple GraphQL proxy for the popular [jsonplaceholder](https://jsonplaceholder
 ![ProxyImage](./assets/images/readmeLogo.png)
 *Image [source](https://www.npmjs.com/package/graphql-rest-proxy)*
 
+## Installation
+```
+npm install
+
+npm start
+```
 ## Available Endpoints
 - GET [/post](https://jsonplaceholder.typicode.com/posts)
 ```
@@ -45,13 +51,6 @@ A simple GraphQL proxy for the popular [jsonplaceholder](https://jsonplaceholder
       }
     }
   }
-```
-
-## Installation
-```
-npm install
-
-npm start
 ```
 
 ## Acknowledgements
