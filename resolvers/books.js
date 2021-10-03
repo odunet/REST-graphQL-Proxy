@@ -1,5 +1,5 @@
 // resolvers/books.js
-const { posts, books } = require('../data');
+const { posts, books } = require('../assets/data');
 const { composeResolvers } = require('@graphql-tools/resolvers-composition');
 const { authenticateReq } = require('../utils/auth');
 

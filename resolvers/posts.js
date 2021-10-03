@@ -1,5 +1,5 @@
 const { composeResolvers } = require('@graphql-tools/resolvers-composition');
-const { posts, users } = require('../data');
+const { posts, users } = require('../assets/data');
 const { authenticateReq } = require('../utils/auth');
 
 const postsResolversFunc = async () => {

@@ -1,4 +1,4 @@
-const {axiosGet} = require('../utils/axios-source.js');
+const {axiosGet} = require('../../utils/axios-source.js');
 
 const books = [
   { id: 1, title: 'Harry Potter and the Chamber of Secrets', authorId: 1 },
